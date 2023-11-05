@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+:root{
+    /* COLORS */
+    --primary-color: hsl(227, 90%, 20%); 
+    --secondary-color: hsl(191, 56%, 78%); 
+    --background-color: hsl(0, 0%, 100%); 
+    --transparant-color: hsla(0, 0%, 100%, 0); 
+
+    /* FONT-SIZE */ 
+    --big-font-size: 4em; 
+    --normal-font-size: 1em; 
+    --normal-font-size-responsive: .9em;
+    --medium-font-size-responsive: .875em;
+    --small-font-size-responsive: .8em;
+
+    /* FONT-WEIGHT */ 
+    --big-font-weight: 800;
+    --medium-font-weight: 600;  
+    --normal-font-weight: 500; 
+    --small-font-weight: 400; 
+}
+
+/* BASE */
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: 'Poppins';
+    height: 100vh;
+    background-image: radial-gradient(var(--background-color), var(--secondary-color));
+    overflow-x: hidden;
+}
+
+/* NAVBAR */
+
+    /* BREAKPOINTS */ 
+
+
+/* HOME-PAGE */
+
+    /* BREAKPOINT */ 
